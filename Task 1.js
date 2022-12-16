@@ -27,7 +27,7 @@ function countItems() {
     }
   }
 
-  console.log(`В данном массиве ${num} чисел, ${evenNum} чётных чисел, ${oddNum} нечётных чисел, ${zero === 1 ? `${zero} нуль` : `${zero} нулей`}, ${notANumber} элементов не являются числами`);
+  console.log(`В данном массиве ${num} чисел, ${evenNum} чётных чисел, ${oddNum} нечётных чисел, ${zero === 1 ? `${zero} ноль` : `${zero} нулей`}, ${notANumber} элемента не являются числами`);
 }
 
 countItems();

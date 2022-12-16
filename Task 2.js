@@ -7,8 +7,8 @@ function getIsPrimeOrNot (num) {
   } else if (num === 0 || num === 1) {
     console.log(`Введённое Вами число "${num}" не является ни простым, ни составным`);
   } else if (num > 1000) {
-    console.log("Введённые Вами данные неверны, введите число < 1000");
+    console.log("Введённые Вами данные неверны, введите число <= 1000");
   }
 }
 
-getIsPrimeOrNot(17);
+getIsPrimeOrNot(1001);
